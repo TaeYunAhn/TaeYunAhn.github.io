@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://taeyunahn.github.io/sitemap/sitemap-index.xml
+Host: https://taeyunahn.github.io
