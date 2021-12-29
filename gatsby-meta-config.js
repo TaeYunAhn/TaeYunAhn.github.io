@@ -46,7 +46,7 @@ module.exports = {
         date: '2021.5 ~',
         activity: '서울42 본과정 시작',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
+          post: '',
           github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
           demo: 'https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAiAiKuOBhBQEiwAId_sK7Mg_3--lkF-pJncp70eDdfNHpJgoeR3YzuyR8WjF3oYBdB0uWx-NxoCqPAQAvD_BwE',
         },
@@ -55,7 +55,7 @@ module.exports = {
         date: '2021.12 ~',
         activity: '개인 블로그 운영',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
+          post: '',
           github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
           demo: 'https://taeyunahn.github.io',
         },
@@ -92,11 +92,11 @@ module.exports = {
       {
         title: '기술 블로그 운영',
         description:
-          '그동안 많은 삽질을 통해 얻은 잡기술을 남들과 공유하기 위해 만든 블로그 입니다. 누군가에게 도움이 될 수 있기를 바라며 만들었습니다.',
+          '그동안 많은 삽질을 통해 얻은 잡기술을 남들과 공유하기 위해 만든 블로그 입니다.',
         techStack: ['gatsby', 'react'],
         thumbnailUrl: 'blog.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
+          post: '',
           github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
           demo: 'https://taeyunahn.github.io',
         },
