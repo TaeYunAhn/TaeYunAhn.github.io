@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `https://github.com/TaeYunAhn/TaeYunAhn.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `https://github.com/TaeYunAhn/TaeYunAhn.github.io`, 
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -14,7 +14,7 @@ module.exports = {
     name: `안태윤`,
     bio: {
       role: `공부하는`,
-      description: ['사람에 가치를 두고', '능동적으로 일하기 위해', '이로운 것을 만들기 위해'],
+      description: ['성취보다 성장을 위해', '능동적으로 일하기 위해', '이로운 것을 만들기 위해'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
@@ -43,12 +43,30 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
+        date: '2021.5 ~',
+        activity: '서울42 본과정 시작',
+        links: {
+          post: '/gatsby-starter-zoomkoding-introduction',
+          github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
+          demo: 'https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAiAiKuOBhBQEiwAId_sK7Mg_3--lkF-pJncp70eDdfNHpJgoeR3YzuyR8WjF3oYBdB0uWx-NxoCqPAQAvD_BwE',
+        },
+      },
+      {
         date: '2021.12 ~',
         activity: '개인 블로그 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
+          demo: 'https://taeyunahn.github.io',
+        },
+      },
+      {
+        date: '2021.12 ~',
+        activity: '개인 블로그 운영',
+        links: {
+          post: '/gatsby-starter-zoomkoding-introduction',
+          github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
+          demo: 'https://taeyunahn.github.io',
         },
       },
     ],
@@ -72,15 +90,15 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '기술 블로그 운영',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
+          '그동안 많은 삽질을 통해 얻은 잡기술을 남들과 공유하기 위해 만든 블로그 입니다. 누군가에게 도움이 될 수 있기를 바라며 만들었습니다.',
         techStack: ['gatsby', 'react'],
         thumbnailUrl: 'blog.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/TaeYunAhn/TaeYunAhn.github.io',
+          demo: 'https://taeyunahn.github.io',
         },
       },
     ],
