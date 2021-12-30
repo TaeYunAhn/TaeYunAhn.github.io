@@ -161,8 +161,6 @@ categories: blog
 <br/>
 
 **위 과정을 따라하시면서 궁금하신 점이 있다면 아래 `댓글`로 남겨주세요!👇**
-
-
 <script src="https://utteranc.es/client.js"
         repo="TaeYunAhn/TaeYunAhn.github.io"
         issue-term="url"
