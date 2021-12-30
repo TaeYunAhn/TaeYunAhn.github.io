@@ -166,7 +166,7 @@ categories: blog
 <script src="https://utteranc.es/client.js"
         repo="TaeYunAhn/TaeYunAhn.github.io"
         issue-term="url"
-        theme="github-light"
+        theme="photon-dark"
         crossorigin="anonymous"
         async>
 </script>
