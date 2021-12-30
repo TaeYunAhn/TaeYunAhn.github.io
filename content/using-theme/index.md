@@ -170,6 +170,14 @@ categories: blog
         async>
 </script>
 
+<script src="https://utteranc.es/client.js"
+        repo="taeyunahn/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ```toc
 
 ```
