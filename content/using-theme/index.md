@@ -16,7 +16,8 @@ categories: 블로그 featured
 
 레포지토리를 내려받은 디렉토리에서 gatsby-config.js를 열어 아래 코드를 자신의 블로그에 맞게 바꿔주도록 한다.
 
-```module.exports = {
+```json
+module.exports = {
   siteMetadata: {
     siteUrl: "https://taeyunahn.github.io", //본인의 사이트 URL을 넣으면 됩ㄴ디ㅏ.
     title: "tahn_Dev_blog",
@@ -55,7 +56,8 @@ http://ccambo.github.io/FunnyLab/Blogging/change-comments-to-utterances/
 
 gatsby-meta-config 파일에서 author 에 입력한 정보는 홈페이지와 about 페이지 상단에 있는 글쓴이를 소개하는 섹션인 bio에서 사용된다. 나는 아래와 같이 작성했다.
 
-```author: {
+```js
+ author: {
     name: `안태윤`,
     bio: {
       role: `공부하는`,
@@ -84,7 +86,8 @@ npm install gh-pages --save-dev
 
 그리고 나서 package.json에 다음을 추가합니다.
 
-```{
+```json
+{
         date: '2021.5 ~',
         activity: '서울42 본과정 시작',
         links: {
@@ -109,7 +112,8 @@ npm install gh-pages --save-dev
 
 프로젝트 페이지 또한 마찬가지로 gatsby-meta-config 파일에서 양식에 맞게 적어주면 그동안 했던 프로잭트에 대해 간단히 설명 할 수 있는 공간을 제공한다.
 
-```{
+```js
+{
         title: '기술 블로그 운영',
         description:
           '그동안 많은 삽질을 통해 얻은 잡기술을 남들과 공유하기 위해 만든 블로그 입니다.',
@@ -133,7 +137,8 @@ npm install gh-pages --save-dev
 
 index.md 파일의 상단에는 아래와 같이 emoji, title, date, author, tags, categories 정보를 제공해야 한다.
 
-```emoji: 🧢
+```
+emoji: 🧢
 title: Getting Started
 date: '2021-12-27 23:00:00'
 author: tahn
@@ -145,7 +150,7 @@ categories: blog
 
 글에 이미지를 첨부하고 싶다면 같은 디렉토리에 이미지 파일을 추가해서 아래와 같이 사용하면 된다.
 
-```jsx
+```
 ![사진](./[이미지 파일명])
 ```
 
