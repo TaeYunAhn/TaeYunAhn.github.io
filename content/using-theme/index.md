@@ -148,13 +148,6 @@ categories: blog
 ```jsx
 ![사진](./[이미지 파일명])
 ```
-<script src="https://utteranc.es/client.js"
-        repo="taeyunahn/blog-comments"
-        issue-term="url"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 <br/>
 
