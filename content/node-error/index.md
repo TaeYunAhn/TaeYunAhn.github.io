@@ -11,7 +11,7 @@ categories: 블로그 error
 
 평소 npm run deploy 를 하면 중간에 이런 오류가 떴었다.
 
-![스크린샷1.png](스크린샷1.png)
+![err1.png](err1.png)
 
 고쳐야 하는 내 성격상 별 일 안일어나고, 오류코드를 검색해도 안나오고.. published가 잘만 뜨길래 별 상관 안했으나.. 
 
@@ -35,7 +35,7 @@ node:46998 [DEP0148] 디프리케이션 워닝이라고 말하며, 아래 경로
 
 package.json 파일에서 ctrl + f 를 이용해 “./” 를 찾아준다.
 
-![스크린샷2.png](스크린샷2.png)
+![err3.png](err3.png)
 
 ```bash
 "./":"./" 이렇게 되어있는걸
@@ -46,7 +46,7 @@ package.json 파일에서 ctrl + f 를 이용해 “./” 를 찾아준다.
 
 에러가 안난다.
 
-![스크린샷3.png](스크린샷3.png)
+![err3.png](err3.png)
 
 하지만 여전히 utterance 는 안보인다.. 
 
