@@ -69,16 +69,16 @@
 <p>---- 아래는 노션에 적었던 내용을 그대로 옮겨 적은 것으로 경어채가 사용되었으나, 향후 수정할 예정이오니 이 점 양해 부탁드립니다. ----</p>
 <h2 id="1-블로그를-완전히-내-블로그로-만들기" style="position:relative;"><a href="#1-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%99%84%EC%A0%84%ED%9E%88-%EB%82%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label="1 블로그를 완전히 내 블로그로 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 블로그를 완전히 내 블로그로 만들기</h2>
 <p>레포지토리를 내려받은 디렉토리에서 gatsby-config.js를 열어 아래 코드를 자신의 블로그에 맞게 바꿔주도록 한다.</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">module.exports = <span class="token punctuation">{</span>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   siteMetadata<span class="token operator">:</span> <span class="token punctuation">{</span>
     siteUrl<span class="token operator">:</span> <span class="token string">"https://taeyunahn.github.io"</span><span class="token punctuation">,</span> <span class="token comment">//본인의 사이트 URL을 넣으면 됩ㄴ디ㅏ.</span>
     title<span class="token operator">:</span> <span class="token string">"tahn_Dev_blog"</span><span class="token punctuation">,</span>
-    description<span class="token operator">:</span> 'tahn_dev_blog' <span class="token comment">// OOO의 개발블로그 </span>
-    language<span class="token operator">:</span> 'ko'<span class="token punctuation">,</span> <span class="token comment">// 'ko', 'en' (영어 버전도 지원하고 있습니다.)</span>
-    ogImage<span class="token operator">:</span> '/og-image.png'<span class="token punctuation">,</span> <span class="token comment">// 공유할 때 보이는 미리보기 이미지로 '/static' 하위에 넣고 싶은 이미지를 추가하시면 됩니다.</span>
+    description<span class="token operator">:</span> <span class="token string">'tahn_dev_blog'</span> <span class="token comment">// OOO의 개발블로그 </span>
+    language<span class="token operator">:</span> <span class="token string">'ko'</span><span class="token punctuation">,</span> <span class="token comment">// 'ko', 'en' (영어 버전도 지원하고 있습니다.)</span>
+    ogImage<span class="token operator">:</span> <span class="token string">'/og-image.png'</span><span class="token punctuation">,</span> <span class="token comment">// 공유할 때 보이는 미리보기 이미지로 '/static' 하위에 넣고 싶은 이미지를 추가하시면 됩니다.</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
   plugins<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span>;</code></pre></div>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
 <h2 id="2-utterance-를-이용해-댓글-기능-만들기" style="position:relative;"><a href="#2-utterance-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label="2 utterance 를 이용해 댓글 기능 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. utterance 를 이용해 댓글 기능 만들기</h2>
 <p>utterance 라는 기능을 이용해 댓글창을 구현하도록 해봤다.</p>
 <p>방법은 아래 링크를 참조했는데, 깃헙 레포에 이슈를 연동해서 내 블로그에 댓글을 달 시, 깃헙 이슈에 적혀 보관되는 형태로 작동한다.</p>
@@ -148,22 +148,22 @@
 <p>똑같이 gatsby-meta-config 파일에서 각 timestamp 정보를 배열로 제공해주면 입력한 순서에 맞춰서 timestamps section에 보여지게 된다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> gh-pages --save-dev</code></pre></div>
 <p>그리고 나서 package.json에 다음을 추가합니다.</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
-        date<span class="token operator">:</span> '<span class="token number">2021.5</span> ~'<span class="token punctuation">,</span>
-        activity<span class="token operator">:</span> '서울<span class="token number">42</span> 본과정 시작'<span class="token punctuation">,</span>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token punctuation">{</span>
+        date<span class="token operator">:</span> <span class="token string">'2021.5 ~'</span><span class="token punctuation">,</span>
+        activity<span class="token operator">:</span> <span class="token string">'서울42 본과정 시작'</span><span class="token punctuation">,</span>
         links<span class="token operator">:</span> <span class="token punctuation">{</span>
-          post<span class="token operator">:</span> ''<span class="token punctuation">,</span>
-          github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/TaeYunAhn/TaeYunAhn.github.io',</span>
-          demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//42seoul.kr/seoul42/contents/view?contentsNo=13&amp;level=2&amp;menuNo=28&amp;gclid=CjwKCAiAiKuOBhBQEiwAId_sK7Mg_3--lkF-pJncp70eDdfNHpJgoeR3YzuyR8WjF3oYBdB0uWx-NxoCqPAQAvD_BwE',</span>
+          post<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+          github<span class="token operator">:</span> <span class="token string">'https://github.com/TaeYunAhn/TaeYunAhn.github.io'</span><span class="token punctuation">,</span>
+          demo<span class="token operator">:</span> <span class="token string">'https://42seoul.kr/seoul42/contents/view?contentsNo=13&amp;level=2&amp;menuNo=28&amp;gclid=CjwKCAiAiKuOBhBQEiwAId_sK7Mg_3--lkF-pJncp70eDdfNHpJgoeR3YzuyR8WjF3oYBdB0uWx-NxoCqPAQAvD_BwE'</span><span class="token punctuation">,</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
       <span class="token punctuation">}</span><span class="token punctuation">,</span>
       <span class="token punctuation">{</span>
-        date<span class="token operator">:</span> '<span class="token number">2021.12</span> ~'<span class="token punctuation">,</span>
-        activity<span class="token operator">:</span> '개인 블로그 운영'<span class="token punctuation">,</span>
+        date<span class="token operator">:</span> <span class="token string">'2021.12 ~'</span><span class="token punctuation">,</span>
+        activity<span class="token operator">:</span> <span class="token string">'개인 블로그 운영'</span><span class="token punctuation">,</span>
         links<span class="token operator">:</span> <span class="token punctuation">{</span>
-          post<span class="token operator">:</span> ''<span class="token punctuation">,</span>
-          github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/TaeYunAhn/TaeYunAhn.github.io',</span>
-          demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//taeyunahn.github.io',</span>
+          post<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+          github<span class="token operator">:</span> <span class="token string">'https://github.com/TaeYunAhn/TaeYunAhn.github.io'</span><span class="token punctuation">,</span>
+          demo<span class="token operator">:</span> <span class="token string">'https://taeyunahn.github.io'</span><span class="token punctuation">,</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
 <p>아직 관련 포스트는 작성하지 않아서 비어있다.</p>
 <h2 id="5-project-페이지" style="position:relative;"><a href="#5-project-%ED%8E%98%EC%9D%B4%EC%A7%80" aria-label="5 project 페이지 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. project 페이지</h2>
