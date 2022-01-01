@@ -3,8 +3,8 @@ emoji: 🔮
 title: node:46998 [DEP0148] 오류 수정방법
 date: '2022-01-01 21:33:00'
 author: tahn
-tags: 블로그 github-pages gatsby gatsby-theme
-categories: 블로그 error nodejs
+tags: 블로그 nodejs node:45998 DEP0148
+categories: 블로그 error
 ---
 
 # node:46998 [DEP0148] 오류 수정방법
