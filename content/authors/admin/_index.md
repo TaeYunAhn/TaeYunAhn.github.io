@@ -51,7 +51,7 @@ education:
     date_end: 
     summary: |
       Currently pursuing a degree in Computer Science with a focus on software engineering and AI-related subjects. Actively participating in internships, hackathons, and mentoring activities.
-      GPA: 4.0/4.5
+      GPA: 3.8/4.5
 
 work:
   - position: MATLAB-to-Python Recoding & Parallelization Engineer
@@ -87,12 +87,9 @@ skills:
         icon: java
   - name: Web Development
     items:
-      - name: HTML
+      - name: HTML/CSS
         percent: 90
         icon: html
-      - name: CSS
-        percent: 85
-        icon: css
       - name: JavaScript
         percent: 85
         icon: javascript
@@ -102,6 +99,12 @@ skills:
   - name: Databases
     items:
       - name: MySQL
+        percent: 70
+        icon: database
+      - name: SQLite
+        percent: 80
+        icon: database
+      - name: MongoDB
         percent: 70
         icon: database
 

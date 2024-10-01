@@ -36,7 +36,7 @@ sections:
       subtitle: ''
       text: |
         - **Software Engineering**: Vision/DL-related development using C++, Python, JAVA
-        - **Web Engineering**: HTML, CSS, JavaScript, React, Java/Spring, MySQL
+        - **Web Engineering**: HTML, CSS, JavaScript, React, Java/Spring, MySQL, SQLite, MongoDB
 
   - block: markdown
     content:
