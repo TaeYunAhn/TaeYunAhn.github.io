@@ -48,7 +48,7 @@ education:
   - area: BSc Computer Science
     institution: Jeonbuk National University
     date_start: 2022-03-01
-    date_end: null
+    date_end: ' '
     summary: |
       Currently pursuing a degree in Computer Science with a focus on software engineering and AI-related subjects. Actively participating in internships, hackathons, and mentoring activities.
       GPA: 4.0/4.5
