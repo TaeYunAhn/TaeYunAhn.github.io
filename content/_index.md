@@ -55,6 +55,7 @@ sections:
       subtitle: ''
       text: |
         - **Jeonbuk National University** (2022.03 - Present): Computer Science
+        - **42Seoul** (2020.03 - 2022.04): Computer Science and Web Programming
 
   - block: markdown
     content:
