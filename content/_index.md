@@ -48,6 +48,7 @@ sections:
         - **Yonsei Fin Tech Center** (2021.11-2021.12): Data visualization, web pages, ARM risk analysis, FRM cost analytics
         - **UpCyplus** (2022.07-2023.02): Event web page development and management using JavaScript, HTML, CSS
         - **Yonsei Fin Tech Center** (2023.02-2023.08): MATLAB-to-Python recoding with CPU/GPU parallelization
+        - **Dpre** (2024.09 - Present): Optimization matlab code
 
   - block: markdown
     content:
