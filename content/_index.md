@@ -17,7 +17,7 @@ sections:
         I am a Software Engineer experienced in Vision/DL-related software development using C++, Python, and JAVA. I also have expertise in web development using HTML, CSS, JavaScript, React, Java/Spring, and MySQL. My passion lies in leveraging technology to create meaningful and impactful solutions.
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: 'https://raw.githubusercontent.com/TaeYunAhn/TaeYunAhn.github.io/main/TaeYunAhn\'s%20cv%20(24.08).pdf' # GitHub의 CV PDF 파일 경로
     design:
       css_class: dark
       background:
@@ -65,15 +65,4 @@ sections:
       text: |
         - **2023 Oasis Hackathon** (2nd place)
         - **2023 OpenSource Hackathon** (3rd place)
-        - **2024 SW Generative AI Hackathon** (3rd place)
-
-  - block: markdown
-    content:
-      title: '🎤 Lectures & Mentoring'
-      subtitle: ''
-      text: |
-        - Gwangju University: 4th Industrial Revolution Computing Lecture (2022)
-        - Mokpo Hahang Middle School: Career Guidance Lecture (2022)
-        - Jeonju City Hall: Youth Talent Sharing School (2023)
-        - Jeonbuk National University: C Language Mentoring (2023)
----
+        - **2024 SW Generative AI Hackathon** (3rd
