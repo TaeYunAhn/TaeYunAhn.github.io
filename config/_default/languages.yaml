@@ -14,20 +14,20 @@ en:
       - name: Introduction
         url: /
         weight: 10
-      - name: Posts
-        url: /#post
-        weight: 11
-      - name: Experience
-        url: /#experience
-        weight: 12
       - name: Projects
         url: /#projects
+        weight: 11
+      - name: Skills
+        url: /#skills
+        weight: 12
+      - name: Other History
+        url: /#others
         weight: 13
-      - name: History
-        url: /#history
+      - name: Posts
+        url: /#posts
         weight: 20
-      - name: Education
-        url: /#education
+      - name: Hobbies
+        url: /#hobbies
         weight: 30
 
 # Korean language configuration
@@ -42,18 +42,18 @@ ko:
       - name: 소개
         url: /
         weight: 10
-      - name: 포스트
-        url: /#post
-        weight: 11
-      - name: 경험
-        url: /#experience
-        weight: 12
       - name: 프로젝트
         url: /#projects
+        weight: 11
+      - name: 스킬
+        url: /#skills
+        weight: 12
+      - name: 기타 이력
+        url: /#others
         weight: 13
-      - name: 경력
-        url: /#history
+      - name: 포스트
+        url: /#posts
         weight: 20
-      - name: 학력
-        url: /#education
+      - name: 취미
+        url: /#hobbies
         weight: 30
