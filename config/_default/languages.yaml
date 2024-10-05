@@ -6,9 +6,9 @@
 en:
   languageCode: en-us
   contentDir: content/en
-  title: Jin Deokjong CV
+  title: taeyunahn's CV
   params:
-    description: Jin Deokjong's CV site.
+    description: tahn's CV site.
   menus:
     main:
     - name: Introduction
@@ -42,6 +42,6 @@ en:
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: 진덕종 CV
+  title: 안태윤 CV
   params:
-    description: 진덕종의 이력서 사이트.
+    description: 이력서 url 입니다.
