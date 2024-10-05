@@ -1,6 +1,6 @@
 ---
 # Display name
-title: tahn
+title: 안태윤
 
 # Name pronunciation (optional)
 name_pronunciation: Tae Yun Ahn
@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Software Engineer
+role: 소프트웨어 엔지니어
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Jeonbuk National University
+  - name: 전북대학교
     url: https://www.jbnu.ac.kr/
 
 # Social network links
 profiles:
   - icon: at-symbol
     url: 'mailto:tahn@jbnu.ac.kr'
-    label: Email Me
+    label: 이메일 보내기
   - icon: brands/github
     url: https://github.com/TaeYunAhn
     label: GitHub
@@ -40,41 +40,41 @@ profiles:
     label: LinkedIn
 
 interests:
-  - Software Engineering
-  - Web Development
-  - Artificial Intelligence
+  - 소프트웨어 엔지니어링
+  - 웹 개발
+  - 인공지능
 
 education:
-  - area: BSc Computer Science
-    institution: Jeonbuk National University
+  - area: 컴퓨터 공학 학사 과정
+    institution: 전북대학교
     date_start: 2022-03-01
     date_end: 
     summary: |
-      Currently pursuing a degree in Computer Science with a focus on software engineering and AI-related subjects. Actively participating in internships, hackathons, and mentoring activities.
+      현재 전북대학교에서 컴퓨터 공학 학사 과정을 이수 중이며, 소프트웨어 엔지니어링과 인공지능 관련 과목을 집중적으로 공부하고 있습니다. 인턴십, 해커톤, 멘토링 활동에도 적극 참여하고 있습니다.
       GPA: 3.8/4.5
 
 work:
-  - position: MATLAB-to-Python Recoding & Parallelization Engineer
+  - position: MATLAB-to-Python 리코딩 및 병렬화 엔지니어
     company_name: Yonsei Fin Tech Center
     company_url: ''
     company_logo: ''
     date_start: 2023-02-01
     date_end: 2023-08-31
     summary: |
-      - Recoded MATLAB to Python based on LPPLS paper.
-      - Optimized code with CPU/GPU parallelization for performance improvement.
-  - position: Web Developer
+      - LPPLS 논문을 기반으로 MATLAB을 Python으로 리코딩.
+      - CPU/GPU 병렬화를 통해 성능 최적화.
+  - position: 웹 개발자
     company_name: UpCyplus
     company_url: ''
     company_logo: ''
     date_start: 2022-07-01
     date_end: 2023-02-28
     summary: |
-      - Developed and managed event web pages using JavaScript, HTML, and CSS.
+      - JavaScript, HTML, CSS를 사용하여 이벤트 웹 페이지 개발 및 관리.
 
 # Skills
 skills:
-  - name: Programming Languages
+  - name: 프로그래밍 언어
     items:
       - name: C++
         percent: 90
@@ -85,7 +85,7 @@ skills:
       - name: Java
         percent: 80
         icon: java
-  - name: Web Development
+  - name: 웹 개발
     items:
       - name: HTML/CSS
         percent: 90
@@ -96,7 +96,7 @@ skills:
       - name: React
         percent: 75
         icon: react
-  - name: Databases
+  - name: 데이터베이스
     items:
       - name: MySQL
         percent: 70
@@ -109,27 +109,27 @@ skills:
         icon: database
 
 languages:
-  - name: Korean
+  - name: 한국어
     percent: 100
-  - name: English
+  - name: 영어
     percent: 80
 
 # Awards
 awards:
-  - title: 2023 Oasis Hackathon (2nd Place)
+  - title: 2023 Oasis Hackathon (2등)
     date: '2023-08-30'
     awarder: Oasis Hackathon
     summary: |
-      Developed the "START FARM platform" and achieved second place in the 2023 Oasis Hackathon.
-  - title: 2023 OpenSource Hackathon (3rd Place)
+      "START FARM 플랫폼"을 개발하여 2023 Oasis Hackathon에서 2등을 수상했습니다.
+  - title: 2023 OpenSource Hackathon (3등)
     date: '2023-06-15'
     awarder: OpenSource Hackathon
     summary: |
-      Contributed to open-source projects and secured third place in the OpenSource Hackathon.
-  - title: 2024 SW Generative AI Hackathon (3rd Place)
+      오픈소스 프로젝트에 기여하여 OpenSource Hackathon에서 3등을 수상했습니다.
+  - title: 2024 SW Generative AI Hackathon (3등)
     date: '2024-02-01'
     awarder: SW Generative AI Hackathon
     summary: |
-      Achieved third place in the SW Generative AI Hackathon for developing an innovative AI solution.
+      혁신적인 AI 솔루션을 개발하여 SW Generative AI Hackathon에서 3등을 수상했습니다.
 
 ---
