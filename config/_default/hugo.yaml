@@ -14,7 +14,7 @@ baseURL: 'https://taeyunahn.github.io/ko/'
 
 # Default language set to Korean
 defaultContentLanguage: ko
-hasCJKLanguage: false
+hasCJKLanguage: true
 # Subdirectory for language-specific content
 defaultContentLanguageInSubdir: true
 removePathAccents: true
