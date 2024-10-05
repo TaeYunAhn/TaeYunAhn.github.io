@@ -5,18 +5,43 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Jin Deokjong CV
+  params:
+    description: Jin Deokjong's CV site.
+  menus:
+    main:
+    - name: Introduction
+      url: /
+      weight: 10
+    - name: Experience
+      url: experience/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      weight: 30
+    - name: Backend
+      parent: projects
+      url: backend/
+      weight: 31
+    - name: Frontend
+      parent: projects
+      url: frontend/
+      weight: 32
+    - name: Other
+      parent: projects
+      url: other/
+      weight: 33
+    - name: Skills
+      url: skills/
+      weight: 40
+    - name: Contact
+      url: contact/
+      weight: 50
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ko:
+  languageCode: ko
+  contentDir: content/ko
+  title: 진덕종 CV
+  params:
+    description: 진덕종의 이력서 사이트.

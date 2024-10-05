@@ -36,7 +36,7 @@ profiles:
     url: https://github.com/TaeYunAhn
     label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/tae-yun-ahn
+    url: https://www.linkedin.com/in/tahn0321/
     label: LinkedIn
 
 interests:
