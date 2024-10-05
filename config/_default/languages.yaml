@@ -2,7 +2,7 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# Default language (English)
 en:
   languageCode: en-us
   contentDir: content/en
@@ -11,37 +11,49 @@ en:
     description: tahn's CV site.
   menus:
     main:
-    - name: Introduction
-      url: /
-      weight: 10
-    - name: Experience
-      url: experience/
-      weight: 20
-    - identifier: projects
-      name: Projects
-      weight: 30
-    - name: Backend
-      parent: projects
-      url: backend/
-      weight: 31
-    - name: Frontend
-      parent: projects
-      url: frontend/
-      weight: 32
-    - name: Other
-      parent: projects
-      url: other/
-      weight: 33
-    - name: Skills
-      url: skills/
-      weight: 40
-    - name: Contact
-      url: contact/
-      weight: 50
+      - name: Introduction
+        url: /
+        weight: 10
+      - name: Posts
+        url: /#post
+        weight: 11
+      - name: Experience
+        url: /#experience
+        weight: 12
+      - name: Projects
+        url: /#projects
+        weight: 13
+      - name: History
+        url: /#history
+        weight: 20
+      - name: Education
+        url: /#education
+        weight: 30
 
+# Korean language configuration
 ko:
   languageCode: ko
   contentDir: content/ko
   title: 안태윤 CV
   params:
-    description: 이력서 url 입니다.
+    description: 안태윤의 이력서 사이트입니다.
+  menus:
+    main:
+      - name: 소개
+        url: /
+        weight: 10
+      - name: 포스트
+        url: /#post
+        weight: 11
+      - name: 경험
+        url: /#experience
+        weight: 12
+      - name: 프로젝트
+        url: /#projects
+        weight: 13
+      - name: 경력
+        url: /#history
+        weight: 20
+      - name: 학력
+        url: /#education
+        weight: 30
