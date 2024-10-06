@@ -69,6 +69,30 @@ sections:
         - **2023 호남지역 오아시스 해커톤** (2등)
         - **2023 sw사업단 오픈소스 해커톤** (3등)
         - **2024 SW 생성형 ai 해커톤** (3등)
+        
+        <div class="slider">
+          <div><img src="/images/IMG_3714.JPG" alt="Hackathon 1"></div>
+          <div><img src="/images/TalkMedia_3327380170193477633_6.jpeg" alt="Hackathon 2"></div>
+          <div><img src="/images/IMG_2539.HEIC" alt="Hackathon 3"></div>
+        </div>
+
+        <style>
+          .slider {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+          }
+          .slider div {
+            display: inline-block;
+            width: 100%;
+          }
+          .slider img {
+            width: 100%;
+            height: auto;
+          }
+        </style>
 
   - block: markdown
     content:
