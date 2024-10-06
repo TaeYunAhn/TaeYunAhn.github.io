@@ -79,7 +79,7 @@ sections:
         <style>
           .slider {
             width: 100%;
-            max-width: 800px;
+            max-width: 500px;
             margin: 0 auto;
             position: relative;
           }
