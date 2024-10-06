@@ -8,6 +8,17 @@ title: TaeYun Ahn's CV
 # Website URL
 baseURL: 'https://taeyunahn.github.io/ko/'
 
+params:
+  description: "전북대학교 안태윤의 포트폴리오, 소프트웨어 엔지니어로서의 경력과 프로젝트를 소개합니다."
+  keywords: "전북대, 안태윤, 소프트웨어 엔지니어, 웹 개발, AI, 인공지능"
+  author: "안태윤"
+
+sitemap:
+  filename: sitemap.xml
+  changefreq: "monthly"
+  priority: 0.5
+
+
 ############################
 ## LANGUAGE
 ############################
