@@ -24,7 +24,8 @@ marketing:
     pirsch: ''
   
   verification:
-    google: 'tdh936wBGwJd1Pq7r-RoMoIqhznyvTIJFhYncQkU77U'  # 구글 서치 콘솔에서 제공한 검증 코드
+    google: 'google-site-verification=tdh936wBGwJd1Pq7r-RoMoIqhznyvTIJFhYncQkU77U'  # 구글 서치 콘솔에서 제공한 검증 코드
+    
     baidu: ''
 
 # Site header
