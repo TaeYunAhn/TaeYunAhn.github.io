@@ -28,7 +28,7 @@ marketing:
     baidu: ''
   
 params:
-  featured_image: "assets/media/background.webp" 
+  featured_image: "images/background.webp" 
 
 # Site header
 header:
