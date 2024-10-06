@@ -12,18 +12,19 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    local_business_type: '안태윤, 전북대 안태윤, 전북대, 전북대 컴퓨터공학부, 컴퓨터공학 안태윤'
+    org_name: 'TaeYun Ahn'
+    description: '전북대학교 소속 소프트웨어 엔지니어 안태윤의 개인 포트폴리오 웹사이트입니다. 다양한 프로젝트와 경력을 소개합니다.'
+    
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
+  
   verification:
-    google: ''
+    google: 'tdh936wBGwJd1Pq7r-RoMoIqhznyvTIJFhYncQkU77U'  # 구글 서치 콘솔에서 제공한 검증 코드
     baidu: ''
 
 # Site header
