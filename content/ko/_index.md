@@ -82,17 +82,31 @@ sections:
             max-width: 800px;
             margin: 0 auto;
             position: relative;
-            overflow: hidden;
           }
           .slider div {
             display: inline-block;
-            width: 100%;
           }
           .slider img {
             width: 100%;
             height: auto;
           }
         </style>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+        <script>
+          $(document).ready(function(){
+            $('.slider').slick({
+              autoplay: true,
+              autoplaySpeed: 3000,
+              dots: true,
+              arrows: true,
+            });
+          });
+        </script>
 
   - block: markdown
     content:
