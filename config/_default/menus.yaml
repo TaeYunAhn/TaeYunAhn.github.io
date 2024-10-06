@@ -8,18 +8,18 @@ main:
     url: /
     weight: 10
   - name: 프로젝트
-    url: /projects
+    url: /projects/
     weight: 11
   - name: 스킬
-    url: /sills
+    url: /sills/
     weight: 12
   - name: 기타 이력
-    url: /others
+    url: /others/
     weight: 13
   - name: 포스트
-    url: /posts
+    url: /posts/
     weight: 20
   - name: 취미
-    url: /hobbies
+    url: /hobbies/
     weight: 30
   

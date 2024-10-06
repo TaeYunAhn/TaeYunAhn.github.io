@@ -1,5 +1,5 @@
 ---
-title: '프로젝트'
+title: 'projects'
 date: 2024-10-01
 type: landing
 
