@@ -58,6 +58,8 @@ sections:
       text: |
         - **전북대학교** (2022.03 - 현재): 컴퓨터 공학 전공
         - **42Seoul** (2020.03 - 2022.04): 컴퓨터 공학 및 웹 프로그래밍
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093663!2d126.570667!3d33.450701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0000000000000000!2z44OT44Or44O844K344O844OG44Kk44Oz44Kw44O844Kk!5e0!3m2!1sen!2skr!4v1632846387291!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
 
   - block: markdown
     content:
