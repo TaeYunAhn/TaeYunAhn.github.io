@@ -73,7 +73,7 @@ sections:
         <div class="slider">
           <div><img src="/images/IMG_3714.JPG" alt="Hackathon 1"></div>
           <div><img src="/images/TalkMedia_3327380170193477633_6.jpeg" alt="Hackathon 2"></div>
-          <div><img src="/images/IMG_2539.HEIC" alt="Hackathon 3"></div>
+          <div><img src="/images/IMG_2539.jpg" alt="Hackathon 3"></div>
         </div>
 
         <style>
