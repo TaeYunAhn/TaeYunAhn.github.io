@@ -15,19 +15,19 @@ en:
         url: /
         weight: 10
       - name: Projects
-        url: /#projects
+        url: projects/
         weight: 11
       - name: Skills
-        url: /#skills
+        url: skills/
         weight: 12
       - name: Other History
-        url: /#others
+        url: others/
         weight: 13
       - name: Posts
-        url: /#posts
+        url: posts/
         weight: 20
       - name: Hobbies
-        url: /#hobbies
+        url: hobbies/
         weight: 30
 
 # Korean language configuration
