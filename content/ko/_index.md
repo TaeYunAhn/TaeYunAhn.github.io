@@ -89,6 +89,8 @@ sections:
           .slider img {
             width: 100%;
             height: auto;
+            max-height: 500px; /* 이미지 높이를 제한하여 한 화면에 맞게 */
+            object-fit: contain; /* 이미지가 프레임 안에서 비율을 유지하며 맞춰지도록 */
           }
         </style>
 
