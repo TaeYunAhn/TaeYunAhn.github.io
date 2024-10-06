@@ -79,7 +79,7 @@ sections:
         <style>
           .slider {
             width: 100%;
-            max-width: 500px;
+            max-width: 600px;  /* 구글 맵과 동일한 너비 */
             margin: 0 auto;
             position: relative;
           }
@@ -89,8 +89,8 @@ sections:
           .slider img {
             width: 100%;
             height: auto;
-            max-height: 500px; /* 이미지 높이를 제한하여 한 화면에 맞게 */
-            object-fit: contain; /* 이미지가 프레임 안에서 비율을 유지하며 맞춰지도록 */
+            max-height: 450px;  /* 구글 맵과 동일한 높이 */
+            object-fit: contain;  /* 이미지 비율 유지하면서 맞추기 */
           }
         </style>
 
