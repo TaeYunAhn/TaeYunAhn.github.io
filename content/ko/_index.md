@@ -24,7 +24,7 @@ sections:
       background:
         color: black
         image:
-          filename: background.jpg
+          filename: background.webp
           filters:
             brightness: 1.0
           size: cover
