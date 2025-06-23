@@ -7,6 +7,11 @@ import './style.scss';
 function Bio({ author, language = 'ko' }) {
   if (!author) return null;
   const { bio, social, name } = author;
+  const rotatingItems = [
+    '성취보다 성장을 위해',
+    '이로운 것을 만들기 위해',
+    '능동적으로 일하기 위해',
+  ];
   return (
     <div className="bio">
       {language === 'ko' ? (
@@ -14,7 +19,7 @@ function Bio({ author, language = 'ko' }) {
           <p className="title">
             안녕하세요.
             <br />
-            <ReactRotatingText items={bio.description} />
+            <ReactRotatingText items={rotatingItems} />
             <br />
             {bio.role} <strong>{name}</strong>입니다.
             <br />

@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `taeyunahn.com`,
+  description: `안태윤의 개발 일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://taeyunahn.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,20 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `안태윤`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      role: `소프트웨어 엔지니어`,
+      description: [
+        '최적화 알고리즘 구현 경험',
+        '웹 풀스택 개발',
+        '실전 문제 해결력',
+      ],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: ``, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `tahn@jbnu.ac.kr`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,13 +47,34 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
+        date: '2020.09 ~ 2021.02',
+        activity: 'KISTI 논문 텍스트 데이터 구축 인턴',
+        links: {},
+      },
+      {
+        date: '2021.03 ~ 2022.04',
+        activity: '42seoul / Web Platform Team (출입 모바일 웹 API 개발, JAVA/Spring, 도커 등)',
+        links: {},
+      },
+      {
+        date: '2021.11 ~ 2021.12',
+        activity: 'YonSei FinTech Center (ARM risk, FRM cost 분석 시각화, 도메인 웹 개발)',
+        links: {},
+      },
+      {
+        date: '2022.02 ~ 2023.02',
+        activity: 'UpCyplus / Web Engineering (웹사이트 개발 및 운영, React 등)',
+        links: {},
+      },
+      {
+        date: '2023.02 ~ 2023.08',
+        activity: 'YonSei FinTech Center (Matlab→C++ 변환, CPU/GPU 병렬화, 최적화)',
+        links: {},
+      },
+      {
+        date: '2024.09 ~ 2025.02',
+        activity: 'Dpre / Matlab 코드 최적화 (ROFA 엔진 기반 웹 서비스, 실시간 연산 최적화)',
+        links: {},
       },
     ],
 
@@ -72,16 +97,102 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
-        description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
+        title: '42seoul 해커톤',
+        description: 'URL Shortener, we make Piscine 등 다양한 해커톤 프로젝트',
+        techStack: ['Java', 'Spring', 'React', 'JS'],
+        thumbnailUrl: '',
+        links: {},
+      },
+      {
+        title: 'LASEK Side Effects Prediction',
+        description: 'Random Forest AI 모델 기반 부작용 예측 솔루션',
+        techStack: ['Python', 'AI'],
+        thumbnailUrl: '',
+        links: {},
+      },
+      {
+        title: 'START FARM platform',
+        description: 'OASIS Hackathon, 농업 플랫폼 개발',
+        techStack: ['Web', 'AI'],
+        thumbnailUrl: '',
+        links: {},
+      },
+      {
+        title: 'One Fitness',
+        description: '고객관리 웹앱 출시',
+        techStack: ['Web'],
+        thumbnailUrl: '',
+        links: {},
+      },
+      {
+        title: 'KOSCOM 산학협력',
+        description: 'LSTM 기반 기술적 분석, 포트폴리오 최적화, 백엔드 자동화',
+        techStack: ['Python', 'LSTM'],
+        thumbnailUrl: '',
+        links: {},
+      },
+      {
+        title: '국민연금공단 산학협력',
+        description: '연금 수령 전략 추천 시스템 개발',
+        techStack: ['AI', 'Web'],
+        thumbnailUrl: '',
+        links: {},
+      },
+    ],
+    lectures: [
+      {
+        date: '2022.09',
+        title: '광주대학교 / 교직원 대상 4차산업혁명 컴퓨팅 능력 향상 강의',
+      },
+      {
+        date: '2022.12',
+        title: '목포 하당중, 항도여중 / 진로진학 강의 "The New Generation, Your Dream"',
+      },
+      {
+        date: '2022.11',
+        title: '김제 청년 이다 / 청년 창업 교육 보조강사',
+      },
+      {
+        date: '2023.06',
+        title: '전주시청 / 청년 재능 공유학교 "A guide for those who are about to become developers"',
+      },
+      {
+        date: '2023.10',
+        title: '전북대학교 / C언어 멘토링 "Improvement mentoring for C language"',
+      },
+      {
+        date: '2024.05~2024.10',
+        title: '스마트라이프 연구학원 / 코딩 강의 "C, Python, block coding"',
+      },
+    ],
+    awards: [
+      {
+        date: '2023.08',
+        title: 'Oasis Hackathon 최우수상 (전국 21개 팀 중)',
+      },
+      {
+        date: '2023.10',
+        title: 'JBNU OpenSource Hackathon 우수상',
+      },
+      {
+        date: '2024.03',
+        title: 'JBNU SW Generative AI | Fine tuning Hackathon 우수상',
+      },
+      {
+        date: '2024.05',
+        title: 'JBNU Capstone Design Contest 최우수상',
+      },
+      {
+        date: '2024.06',
+        title: '롯데 신격호 창업 경진대회 장려상, 특별상 (전국 419개 팀 중)',
+      },
+      {
+        date: '2024.06',
+        title: '전주 창업 경진대회 우수상',
+      },
+      {
+        date: '2024.06',
+        title: 'JBNU SW 창업 경진대회 최우수상',
       },
     ],
   },
