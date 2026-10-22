@@ -3,19 +3,18 @@ import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
-import TimeStampSection from '../components/timestamp-section';
-import ProjectSection from '../components/project-section';
+import CvSections from '../components/cv-sections';
+import { profile } from '../data/cv';
+import { aboutSeo } from '../../gatsby-meta-config';
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
-  const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { language } = metaData;
   return (
     <Layout>
-      <Seo title="About" />
-      <Bio author={author} language={language} />
-      <TimeStampSection timestamps={timestamps} />
-      <ProjectSection projects={projects} />
+      <Seo {...aboutSeo} />
+      <Bio author={profile} language={language} />
+      <CvSections />
     </Layout>
   );
 }
@@ -29,47 +28,6 @@ export const pageQuery = graphql`
         title
         description
         language
-        author {
-          name
-          bio {
-            role
-            description
-            thumbnail
-          }
-          social {
-            github
-            linkedIn
-            email
-          }
-        }
-
-        about {
-          timestamps {
-            date
-            activity
-            links {
-              post
-              github
-              demo
-              googlePlay
-              appStore
-            }
-          }
-
-          projects {
-            title
-            description
-            techStack
-            thumbnailUrl
-            links {
-              post
-              github
-              demo
-              googlePlay
-              appStore
-            }
-          }
-        }
       }
     }
   }

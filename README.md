@@ -1,3 +1,35 @@
+## 안태윤 개인 홈페이지 운영
+
+- 소스 브랜치: `main`. GitHub Pages 공개 브랜치: `gh-pages` (루트).
+- 기존 홈 프로필·연락처·SEO: `gatsby-meta-config.js` (배포된 사이트의 값을 유지).
+- About 전용 프로필·연락처 및 2026년 9월 CV 기반 이력: `src/data/cv.js`.
+- `/about/`만 CV로 갱신한다. 홈은 기존 소개·게시글 구성을 유지하며, About의 강의·멘토링 이력은 제외한다.
+- 공개 사이트에 없던 `content/node-error`와 `content/using-theme`는 원본을 보존하되 `gatsby-config.js`에서 빌드 제외한다. 해당 글의 공개는 별도 변경으로 진행한다.
+- About의 검색 제목·설명은 `gatsby-meta-config.js`의 `aboutSeo`에서 관리한다. `gatsby-ssr.js`는 기존 Gatsby 3·Material UI 병렬 렌더링에서 홈과 About의 메타데이터가 섞이지 않도록 두 경로의 정적 HTML 메타데이터를 고정한다.
+- CV에 날짜가 없는 수상은 날짜 없이 표시한다. 원본 CV의 전화번호와 PDF는 웹에 추가하지 않는다.
+
+### 로컬 검증
+
+기존 Gatsby 3 의존성을 유지한다. Node 24.1.0에서 다음 명령으로 빌드할 수 있다.
+
+```sh
+npm ci --legacy-peer-deps --no-audit --no-fund
+NODE_OPTIONS=--openssl-legacy-provider GATSBY_TELEMETRY_DISABLED=1 npm run build
+npm run serve -- --host 127.0.0.1 --port 9000
+```
+
+`npm test`는 기존 템플릿의 미구현 명령이다. 빌드 후 홈·About·게시글, 목차 링크,
+모바일 레이아웃, 다크 모드를 확인한다. 기존 RSS serialize 설정 경고는 별도 후속 항목이다.
+
+### 공개 배포와 복구
+
+검토·승인 후 소스 변경을 `main`에 병합하고, 같은 커밋을 위 환경에서 빌드한다.
+`npx gh-pages -d public -b gh-pages`는 공개 사이트를 갱신하므로 배포 승인 뒤에만 실행한다.
+배포 직전 `gh-pages` 커밋을 기록한다. 복구 시 그 커밋의 산출물을 별도 디렉터리에 추출해
+같은 명령으로 다시 배포한다. 소스 브랜치는 변경 PR의 revert로 되돌린다.
+
+아래는 원본 테마 안내다.
+
 <h1 align="center">
   Zoomkoding Gatsby Blog
 </h1>

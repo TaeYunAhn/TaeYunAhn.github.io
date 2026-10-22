@@ -18,6 +18,8 @@ module.exports = {
       options: {
         name: `content`,
         path: `${__dirname}/content`,
+        // Preserve the current public post list during this About-only refresh.
+        ignore: [`**/node-error/**`, `**/using-theme/**`],
       },
     },
     {
