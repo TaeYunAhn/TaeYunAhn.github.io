@@ -4,6 +4,7 @@
 - 기존 홈 프로필·연락처·SEO: `gatsby-meta-config.js` (배포된 사이트의 값을 유지).
 - About 전용 프로필·연락처 및 2026년 9월 CV 기반 이력: `src/data/cv.js`.
 - `/about/`만 CV로 갱신한다. 홈은 기존 소개·게시글 구성을 유지하며, About의 강의·멘토링 이력은 제외한다.
+- 공개 사이트에 없던 `content/node-error`와 `content/using-theme`는 원본을 보존하되 `gatsby-config.js`에서 빌드 제외한다. 해당 글의 공개는 별도 변경으로 진행한다.
 - About의 검색 제목·설명은 `gatsby-meta-config.js`의 `aboutSeo`에서 관리한다. `gatsby-ssr.js`는 기존 Gatsby 3·Material UI 병렬 렌더링에서 홈과 About의 메타데이터가 섞이지 않도록 두 경로의 정적 HTML 메타데이터를 고정한다.
 - CV에 날짜가 없는 수상은 날짜 없이 표시한다. 원본 CV의 전화번호와 PDF는 웹에 추가하지 않는다.
 
