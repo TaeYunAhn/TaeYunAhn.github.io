@@ -27,32 +27,35 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-29ac872455f49d421ac3.js"
+    "url": "webpack-runtime-564380c11e42a2e410d9.js"
   },
   {
-    "url": "styles.3dff4339b7d1b58ceb78.css"
+    "url": "styles.4a408ba934bfc7358bfd.css"
   },
   {
-    "url": "framework-5c85f55e1447b6687a6b.js"
+    "url": "framework-0e1bf37de02f7cef2174.js"
   },
   {
-    "url": "app-92a52c4c60c11b8a3b08.js"
+    "url": "app-09a889ddca4bc057fc77.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "07e8f1faea134b81cba49c7afbe2cad6"
+    "revision": "88cc2f0fcff887cd87011ba0e4e7da4d"
   },
   {
-    "url": "static/webfonts/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAo.woff2"
+    "url": "static/webfonts/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAo.woff2"
   },
   {
-    "url": "static/webfonts/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2"
+    "url": "static/webfonts/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAo.woff2"
   },
   {
-    "url": "static/webfonts/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAo.woff2"
+    "url": "static/webfonts/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAo.woff2"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-99ceb4092b480361de7e.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"
+  },
+  {
+    "url": "polyfill-cd840d73727c2e366b63.js"
   },
   {
     "url": "manifest.webmanifest",
@@ -148,7 +151,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-92a52c4c60c11b8a3b08.js`))) {
+  if (!resources || !(await caches.match(`/app-09a889ddca4bc057fc77.js`))) {
     return await fetch(event.request)
   }
 
