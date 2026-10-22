@@ -1,3 +1,17 @@
+export const profile = {
+  name: '안태윤',
+  bio: {
+    role: '소프트웨어 엔지니어',
+    description: ['AI와 데이터를 다루는', '로보틱스를 탐구하는', '웹 서비스를 만드는'],
+    thumbnail: 'sample.png',
+  },
+  social: {
+    github: 'https://github.com/TaeYunAhn',
+    linkedIn: '',
+    email: 'ahntaeyun97@gmail.com',
+  },
+};
+
 // Professional content transcribed from the September 2026 CV.
 // Undated awards intentionally have no inferred year.
 export const skills = [

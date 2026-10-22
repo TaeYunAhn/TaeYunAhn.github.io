@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
-import CvSections from '../components/cv-sections';
 import Post from '../models/post';
 
 import { getUniqueCategories } from '../utils/helpers';
@@ -19,9 +18,8 @@ function HomePage({ data }) {
 
   return (
     <Layout>
-      <Seo title="안태윤 | Software Engineer" />
+      <Seo title="Home" />
       <Bio author={author} language={language} />
-      <CvSections summary />
       <PostTabs
         posts={posts}
         onChange={onTabIndexChange}

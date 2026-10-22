@@ -4,14 +4,16 @@ import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
 import CvSections from '../components/cv-sections';
+import { profile } from '../data/cv';
+import { aboutSeo } from '../../gatsby-meta-config';
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
-  const { author, language } = metaData;
+  const { language } = metaData;
   return (
     <Layout>
-      <Seo title="안태윤 | 경력·연구·프로젝트" />
-      <Bio author={author} language={language} />
+      <Seo {...aboutSeo} />
+      <Bio author={profile} language={language} />
       <CvSections />
     </Layout>
   );
@@ -26,19 +28,6 @@ export const pageQuery = graphql`
         title
         description
         language
-        author {
-          name
-          bio {
-            role
-            description
-            thumbnail
-          }
-          social {
-            github
-            linkedIn
-            email
-          }
-        }
       }
     }
   }
