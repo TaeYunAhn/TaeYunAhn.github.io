@@ -55,7 +55,7 @@ module.exports = {
         name: metaConfig.title,
         short_name: metaConfig.title,
         description: metaConfig.description,
-        lang: `en`,
+        lang: metaConfig.language,
         display: `standalone`,
         start_url: `/`,
         icon: `static/favicon.png`,

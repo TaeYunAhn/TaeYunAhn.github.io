@@ -10,6 +10,7 @@ function Seo({ description, title }) {
           siteMetadata {
             title
             description
+            language
             author {
               name
             }
@@ -23,7 +24,7 @@ function Seo({ description, title }) {
   const metaDescription = description || site.siteMetadata.description;
   return (
     <Helmet
-      htmlAttributes={{ lang: 'en' }}
+      htmlAttributes={{ lang: site.siteMetadata.language }}
       title={title}
       defaultTitle={site.siteMetadata.title}
       meta={[
